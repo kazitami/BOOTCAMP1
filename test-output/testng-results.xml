@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-23T20:22:55 EDT" name="Default suite" finished-at="2024-04-23T20:23:00 EDT" duration-ms="4854">
+  <suite started-at="2024-04-23T21:39:21 EDT" name="Default suite" finished-at="2024-04-23T21:39:28 EDT" duration-ms="6976">
     <groups>
     </groups>
-    <test started-at="2024-04-23T20:22:55 EDT" name="Default test" finished-at="2024-04-23T20:23:00 EDT" duration-ms="4854">
-      <class name="EASY_JAVA_PROGRAM.nav_A_Website_verify_Title_Of_The_Page">
-        <test-method signature="verifyTitleOfThePage()[pri:0, instance:EASY_JAVA_PROGRAM.nav_A_Website_verify_Title_Of_The_Page@55182842]" started-at="2024-04-23T20:22:55 EDT" name="verifyTitleOfThePage" finished-at="2024-04-23T20:23:00 EDT" duration-ms="4825" status="PASS">
+    <test started-at="2024-04-23T21:39:21 EDT" name="Default test" finished-at="2024-04-23T21:39:28 EDT" duration-ms="6976">
+      <class name="EASY_JAVA_PROGRAM.verify_Successful_Login_With_Valid_Credential">
+        <test-method is-config="true" signature="setup()[pri:0, instance:EASY_JAVA_PROGRAM.verify_Successful_Login_With_Valid_Credential@41d477ed]" started-at="2024-04-23T21:39:21 EDT" name="setup" finished-at="2024-04-23T21:39:26 EDT" duration-ms="5522" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitleOfThePage -->
-      </class> <!-- EASY_JAVA_PROGRAM.nav_A_Website_verify_Title_Of_The_Page -->
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Login_With_Valid_Credential()[pri:1, instance:EASY_JAVA_PROGRAM.verify_Successful_Login_With_Valid_Credential@41d477ed]" started-at="2024-04-23T21:39:26 EDT" name="verify_Login_With_Valid_Credential" finished-at="2024-04-23T21:39:28 EDT" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Valid_Credential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EASY_JAVA_PROGRAM.verify_Successful_Login_With_Valid_Credential@41d477ed]" started-at="2024-04-23T21:39:28 EDT" name="tearDown" finished-at="2024-04-23T21:39:28 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EASY_JAVA_PROGRAM.verify_Successful_Login_With_Valid_Credential -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
