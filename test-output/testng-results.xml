@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T11:43:57 EDT" name="Default suite" finished-at="2024-05-09T11:44:06 EDT" duration-ms="8317">
+  <suite started-at="2024-05-09T17:07:40 EDT" name="Default suite" finished-at="2024-05-09T17:07:46 EDT" duration-ms="6218">
     <groups>
     </groups>
-    <test started-at="2024-05-09T11:43:57 EDT" name="Default test" finished-at="2024-05-09T11:44:06 EDT" duration-ms="8317">
-      <class name="LoginFunctionality.LoginTest">
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:LoginFunctionality.LoginTest@411f53a0]" started-at="2024-05-09T11:43:57 EDT" name="loginSetup" finished-at="2024-05-09T11:44:04 EDT" duration-ms="6630" status="PASS">
+    <test started-at="2024-05-09T17:07:40 EDT" name="Default test" finished-at="2024-05-09T17:07:46 EDT" duration-ms="6218">
+      <class name="Search.SearchProductTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Search.SearchProductTest@51399530]" started-at="2024-05-09T17:07:40 EDT" name="Setup" finished-at="2024-05-09T17:07:45 EDT" duration-ms="4588" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:LoginFunctionality.LoginTest@411f53a0]" started-at="2024-05-09T11:44:04 EDT" name="verifyLoginWithValidCredentials" finished-at="2024-05-09T11:44:05 EDT" duration-ms="1503" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="searchProduct()[pri:1, instance:Search.SearchProductTest@51399530]" started-at="2024-05-09T17:07:45 EDT" name="searchProduct" finished-at="2024-05-09T17:07:46 EDT" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginFunctionality.LoginTest@411f53a0]" started-at="2024-05-09T11:44:05 EDT" name="tearDown" finished-at="2024-05-09T11:44:06 EDT" duration-ms="151" status="PASS">
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Search.SearchProductTest@51399530]" started-at="2024-05-09T17:07:46 EDT" name="tearDown" finished-at="2024-05-09T17:07:46 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- LoginFunctionality.LoginTest -->
+      </class> <!-- Search.SearchProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

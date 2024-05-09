@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LoginFunctionality.LoginTest">
+      <class name="Search.SearchProductTest">
         <methods>
-          <include name="loginSetup"/>
-          <include name="verifyLoginWithValidCredentials"/>
+          <include name="Setup"/>
           <include name="tearDown"/>
+          <include name="searchProduct"/>
         </methods>
-      </class> <!-- LoginFunctionality.LoginTest -->
+      </class> <!-- Search.SearchProductTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
