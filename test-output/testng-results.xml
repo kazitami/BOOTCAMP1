@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-08T11:14:01 EDT" name="Default suite" finished-at="2024-05-08T11:14:08 EDT" duration-ms="6843">
+  <suite started-at="2024-05-09T11:43:57 EDT" name="Default suite" finished-at="2024-05-09T11:44:06 EDT" duration-ms="8317">
     <groups>
     </groups>
-    <test started-at="2024-05-08T11:14:01 EDT" name="Default test" finished-at="2024-05-08T11:14:08 EDT" duration-ms="6843">
-      <class name="HomePageNavigation.homePageNavigationTestcase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:HomePageNavigation.homePageNavigationTestcase@74235045]" started-at="2024-05-08T11:14:01 EDT" name="setup" finished-at="2024-05-08T11:14:07 EDT" duration-ms="6238" status="PASS">
+    <test started-at="2024-05-09T11:43:57 EDT" name="Default test" finished-at="2024-05-09T11:44:06 EDT" duration-ms="8317">
+      <class name="LoginFunctionality.LoginTest">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:LoginFunctionality.LoginTest@411f53a0]" started-at="2024-05-09T11:43:57 EDT" name="loginSetup" finished-at="2024-05-09T11:44:04 EDT" duration-ms="6630" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testHomePageElements()[pri:0, instance:HomePageNavigation.homePageNavigationTestcase@74235045]" started-at="2024-05-08T11:14:07 EDT" name="testHomePageElements" finished-at="2024-05-08T11:14:08 EDT" duration-ms="571" status="PASS">
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:LoginFunctionality.LoginTest@411f53a0]" started-at="2024-05-09T11:44:04 EDT" name="verifyLoginWithValidCredentials" finished-at="2024-05-09T11:44:05 EDT" duration-ms="1503" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePageElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageNavigation.homePageNavigationTestcase@74235045]" started-at="2024-05-08T11:14:08 EDT" name="tearDown" finished-at="2024-05-08T11:14:08 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginFunctionality.LoginTest@411f53a0]" started-at="2024-05-09T11:44:05 EDT" name="tearDown" finished-at="2024-05-09T11:44:06 EDT" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- HomePageNavigation.homePageNavigationTestcase -->
+      </class> <!-- LoginFunctionality.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
