@@ -17,11 +17,10 @@ public class TestBase {
 	public ChromeOptions options;
 	public Properties prop;
 	public FileInputStream ip;
-	public Properties dataProp;
 	
 	public TestBase() throws Exception {
 		prop = new Properties();
-		ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\HomePageNavigation\\Config.properties");
+		ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\Checkout\\Config.properties");
 	    prop.load(ip);
 	}
 	

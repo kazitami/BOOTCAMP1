@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Shopping_Cart.ViewCartPageTest">
+      <class name="Checkout.checkOutPageTest">
         <methods>
-          <include name="verifyProductIsAddedToTheCart"/>
+          <include name="verifyCorrectProductBeignPurchased"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Shopping_Cart.ViewCartPageTest -->
+      </class> <!-- Checkout.checkOutPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

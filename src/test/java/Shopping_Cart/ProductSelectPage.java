@@ -24,6 +24,9 @@ public WebDriver driver;
 	@FindBy(xpath = "//i[@class=\"fa fa-shopping-cart\"]/following::strong[contains(text(),'View Cart')]")
 	private WebElement ViewCart;
 	
+	@FindBy(css = "a.btn.btn-primary")
+	private WebElement checkOut;
+	
 	public ProductSelectPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -35,5 +38,6 @@ public WebDriver driver;
 		cart.click();
 		ViewCart.click();
 	}
+	
 	
 }

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T23:57:58 EDT" name="Default suite" finished-at="2024-05-09T23:58:05 EDT" duration-ms="6954">
+  <suite started-at="2024-05-10T01:43:31 EDT" name="Default suite" finished-at="2024-05-10T01:43:46 EDT" duration-ms="14724">
     <groups>
     </groups>
-    <test started-at="2024-05-09T23:57:58 EDT" name="Default test" finished-at="2024-05-09T23:58:05 EDT" duration-ms="6954">
-      <class name="Shopping_Cart.ViewCartPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Shopping_Cart.ViewCartPageTest@618b19ad]" started-at="2024-05-09T23:57:58 EDT" name="setup" finished-at="2024-05-09T23:58:02 EDT" duration-ms="4131" status="PASS">
+    <test started-at="2024-05-10T01:43:31 EDT" name="Default test" finished-at="2024-05-10T01:43:46 EDT" duration-ms="14724">
+      <class name="Checkout.checkOutPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Checkout.checkOutPageTest@2b71e916]" started-at="2024-05-10T01:43:31 EDT" name="setup" finished-at="2024-05-10T01:43:36 EDT" duration-ms="4466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductIsAddedToTheCart()[pri:1, instance:Shopping_Cart.ViewCartPageTest@618b19ad]" started-at="2024-05-09T23:58:02 EDT" name="verifyProductIsAddedToTheCart" finished-at="2024-05-09T23:58:05 EDT" duration-ms="2787" status="PASS">
+        <test-method signature="verifyCorrectProductBeignPurchased()[pri:1, instance:Checkout.checkOutPageTest@2b71e916]" started-at="2024-05-10T01:43:36 EDT" name="verifyCorrectProductBeignPurchased" finished-at="2024-05-10T01:43:46 EDT" duration-ms="10224" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyProductIsAddedToTheCart -->
-      </class> <!-- Shopping_Cart.ViewCartPageTest -->
+        </test-method> <!-- verifyCorrectProductBeignPurchased -->
+      </class> <!-- Checkout.checkOutPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
